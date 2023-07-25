@@ -1,0 +1,64 @@
+#pic{
+    width: 40%;
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+}
+h3{
+    font-family: Arial;
+    padding: 13px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia;
+    background-image: url("tb.png");
+    z-index: 4;
+    position: relative;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    position: relative;
+
+}
+body{
+    background-image: url("tftback.jpg");
+    background-size: cover;
+    z-index: 1;
+}
+#logo{
+    position: relative;
+    left: 3px;
+    bottom: 3px;
+    width: 5%;
+}
+.hero{
+    text-align: center;
+}
+img{
+    border-radius: 10%;
+}
+p{
+    font-size: 100%;
+    font-family: Georgia;
+    font-weight: bold;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
